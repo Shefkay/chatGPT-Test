@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  padding-left: 300px;
+}
+
+img {
+  width: 100%;
+}
+
+.sidebar {
+  width: 300px;
+}
