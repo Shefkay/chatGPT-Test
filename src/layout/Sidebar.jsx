@@ -4,11 +4,11 @@ import { PiOpenAiLogoLight } from "react-icons/pi";
 
 function Sidebar() {
   return (
-    <div className="bg-gray-600 fixed top-0 bottom-0 left-0">
+    <div className="bg-gray-600 fixed top-0 bottom-0 left-0 h-screen">
       <div className="sidebar">
         <div className="mb-3">
-          <div className="flex justify-between items-center border-b h-15 px-4">
-            <a href="" className="max-w-10">
+          <div className="flex justify-between items-center border-b h-16 px-4">
+            <a href="" className="w-10">
               <PiOpenAiLogoLight className="" />
             </a>
             <button>

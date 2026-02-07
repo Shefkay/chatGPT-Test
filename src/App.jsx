@@ -4,11 +4,11 @@ import Sidebar from "./layout/Sidebar";
 
 function App() {
   return (
-    <div className="flex flex-row items-center bg-gray-800 text-white h-screen relative">
+    <div className="bg-gray-800 text-white h-screen relative">
       <Sidebar />
-      <main className="flex-1 relative">
-        <ChatInput />
-      </main>
+
+      <ChatInput />
+
     </div>
   );
 }

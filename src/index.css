@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+:root {
+  --color-background: #212121;
+  --color-primary: #303030;
+  --color-white: #F9F9F9;
+  --accent-color: #A6A6A6;
+  --aaccent-color: #7e7e7e;
+}
+
 body {
-  padding-left: 300px;
+  margin-left: 250px;
 }
 
 img {
@@ -9,5 +17,5 @@ img {
 }
 
 .sidebar {
-  width: 300px;
+  width: 250px;
 }
